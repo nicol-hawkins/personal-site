@@ -10,12 +10,12 @@
 }
 
 body {
-  background-image: url("criss-cross.png");
+  background-image: url("../img/criss-cross.png");
 
 }
 
 .title-bar {
-  background-image: url("triangle-mosaic.png");
+  background-image: url("../img/triangle-mosaic.png");
   background-size: 15%;
   background-size: auto;
   border-bottom: 5px black dashed;

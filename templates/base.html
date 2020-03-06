@@ -25,7 +25,7 @@
             </div>
             <div class="nav-btns">
                 {% for page in pages %} 
-                    <a class="nav-btn{% if page.title == title %}--active{% endif %}" href="{{page.file_name}}">{{page.title | title}}</a>
+                    <a href="{{page.file_name}}" class="nav-btn{% if page.title == title %}--active{% endif %}">{{page.title | title}}</a>
                 {% endfor %}
             </div>
         </div>

@@ -16,7 +16,7 @@
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
-        <title>About Me</title>
+        <title>About</title>
     </head>
     <body>
         <div class="title-bar">
@@ -24,9 +24,13 @@
                 <p class="name">nicol hawkins</p>
             </div>
             <div class="nav-btns">
-                <a href="about.html" class="nav-btn">about</a>
-                <a href="resume.html" class="nav-btn">resume</a>
-                <a href="projects.html" class="nav-btn">projects</a>
+                 
+                    <a class="nav-btn " href="resume.html">Resume</a>
+                 
+                    <a class="nav-btn  active" href="about.html">About</a>
+                 
+                    <a class="nav-btn " href="projects.html">Projects</a>
+                
             </div>
         </div>
         <div class="main-container">
@@ -78,13 +82,3 @@
 
     </body>
 </html>
-
-        <!-- {% for page in pages %}
-            {% if page is current page %}
-            <a href ="{{ page.output_file }}" class="btn--active">{{ page.title }}</a>
-            {% else %}
-            <a href ="{{ page.output_file }}" class="btn">{{ page.title }}</a>
-            {% elif %}
-            <a href ="{{ page.output_file }}" class="btn">{{ page.title }}</a>
-            {% endif %}
-        {% endfor %} -->

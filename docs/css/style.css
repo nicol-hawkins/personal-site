@@ -45,6 +45,7 @@ p.name {
 
 a.nav-btn {
   color: var(--black);
+  text-transform: lowercase;
   font-family: 'Roboto Mono', monospace;
   font-size: 26px;
   height: 40px;
@@ -62,11 +63,36 @@ a.nav-btn {
   
 }
 
+a.nav-btn--active {
+  color: white;
+  text-transform: lowercase;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 26px;
+  height: 40px;
+  margin: 10px;
+  margin-right: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  justify-content: space-between;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.8s;
+  background: black;
+  text-decoration: none;
+  -webkit-border-radius: 12px; 
+  
+}
+
+a.nav-btn--active:hover {
+  color: var(--darkgray);
+  text-decoration: none;
+}
+
 
 a.nav-btn:hover {
   color: var(--darkgray);
   text-decoration: none;
-  background-color: var(--hotpink);
+  background-color: var(--blank);
 }
 
 .main-row {

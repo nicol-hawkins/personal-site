@@ -64,7 +64,7 @@ a.nav-btn {
 }
 
 a.nav-btn--active {
-  color: red;
+  color: white;
   text-transform: lowercase;
   font-family: 'Roboto Mono', monospace;
   font-size: 26px;
@@ -77,17 +77,22 @@ a.nav-btn--active {
   justify-content: space-between;
   -webkit-transition-duration: 0.4s; 
   transition-duration: 0.8s;
-  background: var(--blank);
+  background: black;
   text-decoration: none;
   -webkit-border-radius: 12px; 
   
+}
+
+a.nav-btn--active:hover {
+  color: var(--darkgray);
+  text-decoration: none;
 }
 
 
 a.nav-btn:hover {
   color: var(--darkgray);
   text-decoration: none;
-  background-color: var(--hotpink);
+  background-color: var(--blank);
 }
 
 .main-row {
